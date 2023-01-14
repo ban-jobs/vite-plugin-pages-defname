@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "jsx": "preserve",
+    "outDir": "lib",
+    "lib": ["ES2015"],
+    "declaration": true,
+    "strictNullChecks": true,
+    "downlevelIteration": true,
+    "emitDeclarationOnly": true,
+    "moduleResolution": "node"
+  },
+  "types": ["vite/client"],
+  "include": ["src/**/*", "test/**/*", "typings/**/*.d.ts"]
+}
